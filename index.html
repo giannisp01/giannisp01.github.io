@@ -1,10 +1,18 @@
-<!-- Add icon library -->
-<link rel="stylesheet" href="iconbar.css">
+<!DOCTYPE html>
+<html>
 
-<div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"></i></a>
-  <a href="#"><i class="fa fa-search"></i></a>
-  <a href="#"><i class="fa fa-envelope"></i></a>
-  <a href="#"><i class="fa fa-globe"></i></a>
-  <a href="#"><i class="fa fa-trash"></i></a>
-</div>
+   <head>
+      <title>HTML Frames</title>
+   </head>
+	
+   <frameset rows = "8%,92%">
+      <frame name = "top" src = "topbar.html" />
+      <frame name = "main" src = "home.html" />
+   
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+      
+   </frameset>
+   
+</html>
